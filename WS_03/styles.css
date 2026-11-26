@@ -53,15 +53,14 @@ h1 {
     filter: grayscale(0%);
 }.quote {
     position: relative;
-    padding-left: 20px;
+    padding-left: 60px;
     font-style: italic;
 }
 
 .quote::before {
-    content: "“";
+    content: "❝";
     position: absolute;
     left: 0;
-    top: -10px;
-    font-size: 40px;
-    color: gray;
-}
+    top: -15px;
+    font-size: 60px;
+    color: steelblue;
